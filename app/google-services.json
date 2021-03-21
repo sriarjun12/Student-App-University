@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "636556263897",
+    "firebase_url": "https://student-managment-192cf-default-rtdb.firebaseio.com",
+    "project_id": "student-managment-192cf",
+    "storage_bucket": "student-managment-192cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636556263897:android:92c35bc1100e4301bf59c8",
+        "android_client_info": {
+          "package_name": "com.abort.collegeadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636556263897-89c9tk9p67o5clt43h4j4j5gomfe2nna.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abort.collegeadmin",
+            "certificate_hash": "8eec0835f7782aca24103fd2b56eb823dc8e5929"
+          }
+        },
+        {
+          "client_id": "636556263897-eqgk7ac53b98mjd28jv84k96cha20uqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVAEZ_15UiTrki1Lam3tob_MVqBV1e-Q8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636556263897-eqgk7ac53b98mjd28jv84k96cha20uqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636556263897:android:ecff7785b9224ea3bf59c8",
+        "android_client_info": {
+          "package_name": "com.abort.facultycollege"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636556263897-0cvph8l7ucnloada5lrcoqr2stgvkr1k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abort.facultycollege",
+            "certificate_hash": "8eec0835f7782aca24103fd2b56eb823dc8e5929"
+          }
+        },
+        {
+          "client_id": "636556263897-eqgk7ac53b98mjd28jv84k96cha20uqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVAEZ_15UiTrki1Lam3tob_MVqBV1e-Q8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636556263897-eqgk7ac53b98mjd28jv84k96cha20uqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636556263897:android:535cf9366b8b6f59bf59c8",
+        "android_client_info": {
+          "package_name": "com.abort.studentcollege"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636556263897-53k1qo8kaglis7ke3lbeeftjsfppjv1r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abort.studentcollege",
+            "certificate_hash": "8eec0835f7782aca24103fd2b56eb823dc8e5929"
+          }
+        },
+        {
+          "client_id": "636556263897-eqgk7ac53b98mjd28jv84k96cha20uqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVAEZ_15UiTrki1Lam3tob_MVqBV1e-Q8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "636556263897-eqgk7ac53b98mjd28jv84k96cha20uqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

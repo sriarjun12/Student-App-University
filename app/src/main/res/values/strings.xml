@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Student College</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Student</string>
+    <string name="title_notifications">Teacher</string>
+    <string name="time_title">Time Table</string>
+    <string name="notes_title">Notes</string>
+</resources>

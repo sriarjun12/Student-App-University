@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="25sp"
+    android:paddingRight="25sp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mtf_labelColor="@android:color/black"
+        app:mtf_backgroundColor="#FFF4CB"
+        app:mtf_cardCollapsedHeight="4dp"
+        app:mtf_image="@drawable/teacher">
+        <EditText
+            android:id="@+id/edt_class"
+            android:hint="Class ID"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:maxLength="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.github.florent37.materialtextfield.MaterialTextField>
+    <Button
+        android:id="@+id/change_number"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue_theme"
+        app:backgroundTint="@color/white"
+        android:text="change Number"/>
+</LinearLayout>

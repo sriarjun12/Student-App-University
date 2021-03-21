@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="25sp"
+    android:paddingRight="25sp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mtf_labelColor="@android:color/black"
+        app:mtf_backgroundColor="#FFF4CB"
+        app:mtf_cardCollapsedHeight="4dp"
+        app:mtf_image="@drawable/student">
+        <EditText
+            android:id="@+id/edt_password"
+            android:hint="New Password"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:maxLength="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.github.florent37.materialtextfield.MaterialTextField>
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mtf_labelColor="@android:color/black"
+        app:mtf_backgroundColor="#FFF4CB"
+        app:mtf_cardCollapsedHeight="4dp"
+        app:mtf_image="@drawable/student">
+        <EditText
+            android:id="@+id/edt_password_cfn"
+            android:hint="Confirm Password"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:maxLength="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.github.florent37.materialtextfield.MaterialTextField>
+</LinearLayout>

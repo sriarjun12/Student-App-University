@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mtf_cardCollapsedHeight="4dp"
+        app:mtf_labelColor="@android:color/black"
+        app:mtf_openKeyboardOnFocus="true"
+        app:mtf_hasFocus="true"
+        app:mtf_image="@drawable/gmaillogo"
+        app:mtf_backgroundColor="#FFF4CB"
+        >
+        <EditText
+            android:id="@+id/edt_email"
+            android:hint="Email"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+    <com.github.florent37.materialtextfield.MaterialTextField
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mtf_labelColor="@android:color/black"
+        app:mtf_backgroundColor="#FFF4CB"
+        app:mtf_cardCollapsedHeight="4dp"
+        app:mtf_image="@drawable/teacher">
+        <EditText
+            android:id="@+id/edt_password"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.github.florent37.materialtextfield.MaterialTextField>
+    <Button
+        android:id="@+id/change_number"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue_theme"
+        app:backgroundTint="@color/white"
+        android:text="change Number"/>
+</LinearLayout>
